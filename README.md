@@ -27,7 +27,7 @@ const withProfiler = require(`next-plugin-profiler`)({
 module.exports = withProfiler({});
 ```
 
-Then you can run a build command with environment variable and the condition you've set:
+Then you can run a build command with the environment variable:
 
 ```bash
 ENABLE_PROFILER=true npm run build
