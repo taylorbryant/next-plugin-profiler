@@ -1,5 +1,3 @@
-const path = require(`path`);
-
 module.exports = ({ isEnabled = false }) => {
   return (nextConfig = {}) => {
     return {
@@ -14,14 +12,10 @@ module.exports = ({ isEnabled = false }) => {
         const { dev } = options;
 
         if (!dev && isEnabled) {
-          config.resolve.alias[`react-dom$`] = path.join(
-            __dirname,
-            `node_modules/react-dom/profiling`
-          );
-          config.resolve.alias[`scheduler/tracing`] = path.join(
-            __dirname,
-            `node_modules/scheduler/tracing-profiling`
-          );
+          config.resolve.alias[`react-dom$`] = `react-dom/profiling`;
+          config.resolve.alias[
+            `scheduler/tracing`
+          ] = `scheduler/tracing-profiling`;
         }
 
         if (typeof nextConfig.webpack === "function") {
