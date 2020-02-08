@@ -1,6 +1,6 @@
 {
   "name": "next-plugin-profiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable the React Profiler during a production build in your Next.js project",
   "main": "index.js",
   "repository": {
