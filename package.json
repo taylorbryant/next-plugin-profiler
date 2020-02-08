@@ -1,11 +1,11 @@
 {
   "name": "next-plugin-react-profiler",
   "version": "1.0.0",
-  "description": "Enable the React profiler in a Next.js build",
+  "description": "Enable the React Profiler during a production build in your Next.js project",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taylorbryant/next-plugin-profiling.git"
+    "url": "git+https://github.com/taylorbryant/next-plugin-react-profiler.git"
   },
   "keywords": [
     "nextjs",
@@ -16,7 +16,10 @@
   "author": "Taylor Bryant <taylor@bryant.io> (https://bryant.io)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/taylorbryant/next-plugin-profiling/issues"
+    "url": "https://github.com/taylorbryant/next-plugin-react-profiler/issues"
   },
-  "homepage": "https://github.com/taylorbryant/next-plugin-profiling#readme"
+  "homepage": "https://github.com/taylorbryant/next-plugin-react-profiler#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
