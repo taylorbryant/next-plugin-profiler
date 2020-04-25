@@ -1,5 +1,7 @@
 # Next.js + React Profiler
 
+![npm badge](https://img.shields.io/npm/v/next-plugin-profiler)
+
 Enable the [React Profiler](https://reactjs.org/blog/2018/09/10/introducing-the-react-profiler.html) during a production build in your [Next.js](https://nextjs.org/) project
 
 ## Installation
