@@ -18,7 +18,7 @@ yarn add next-plugin-profiler
 
 ### Usage with environment variables
 
-Create a next.config.js:
+Create a `next.config.js` file:
 
 ```js
 // next.config.js
