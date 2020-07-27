@@ -1,6 +1,6 @@
 # Next.js + React Profiler
 
-> Update: You don't need this anymore. In v9.5, Next.js [added a `--profile` flag to enable React Profiler in production builds](https://nextjs.org/blog/next-9-5#production-react-profiling).
+> Update: You don't need this anymore. In v9.5, Next.js [added a `--profile` flag to enable React Profiler in a production build](https://nextjs.org/blog/next-9-5#production-react-profiling).
 
 
 ![npm badge](https://img.shields.io/npm/v/next-plugin-profiler)
